@@ -352,7 +352,7 @@ function NewEntry({navigation, route})
                     <View style = {{height:260, width:260, borderWidth:2, borderColor:'#816868', borderRadius:10, justifyContent:'center', alignItems:'center'}}>
                         <TouchableOpacity onPress={pickImage}>
                             
-                            {image ? <Image source={{ uri: image }} style={{ width: 150, height: 150 }} />:
+                            {image ? <Image source={{ uri: image }} style={{ width: 300, height: 300 }} />:
                             <Image source = {require('../assets/path1.png')} style = {{resizeMode:'contain', height:50, width:50}} />}
                         </TouchableOpacity>
                         <Text style = {{textAlign:'center'}}>Click this Panel to upload an image of your plant</Text>

@@ -117,8 +117,8 @@ var plantReminders2 = [
 
 
 var users = [
-    // {username:"Richard",password:"123pass", email:"john@example.com"},
-    {username:"Xavier",password:"123pass", email:"jane@example.com"}
+    {username:"Richard",password:"123pass", email:"john@example.com"},
+    //{username:"Xavier",password:"123pass", email:"jane@example.com"}
 ];
 
 plantReminders = plantReminders.sort((a,b) =>{
